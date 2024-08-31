@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.app-container {
+    background: #ce6e6e;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(73, 36, 36, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #d8a6a6;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #6196d0;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0862c3;
+}
+
+#confirmation {
+    margin-top: 15px;
+}
+
+#confirmationMessage {
+    font-size: 1.2em;
+    font-weight: bold;
+}
